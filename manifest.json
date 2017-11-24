@@ -1,0 +1,17 @@
+{
+  "name": "tabCast",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Saves a screenshot in the google drive on the sizing of a menu",
+  "permissions": [
+    "tabCapture", "tabs", "displaySource"
+  ],
+  "browser_action": {
+      "default_title": "Tab cast",
+      "default_popup": "main.html"
+  },
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  }
+}
